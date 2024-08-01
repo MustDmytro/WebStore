@@ -7,15 +7,14 @@ category: Development
 version: "1.0.0"
 port: 3000
 description: >-
-  Supabase is an open source Firebase alternative.
-  Start your project with a Postgres database, Authentication, instant APIs, Edge Functions, Realtime subscriptions, Storage, and Vector embeddings.
+  Drone is a self-service Continuous Integration platform for busy development teams.
 
-developer: Supabase
-website: https://supabase.com
+developer: Harness
+website: https://www.drone.io/
 submitter: MajorTom327
 submission: https://github.com/MajorTom327/umbrel-community-app-store
 repo: https://github.com/MajorTom327/umbrel-community-app-store
-support: https://supabase.com
+support: https://github.com/drone
 gallery:
   - https://i.imgur.com/yyVG0Jb.jpeg
 releaseNotes: >-
