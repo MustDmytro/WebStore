@@ -1,0 +1,25 @@
+manifestVersion: 1
+id: tommy-prometheus
+name: Prometheus
+tagline: Just prometheus
+icon: https://svgur.com/i/18st
+category: Development
+version: "2.53.1"
+port: 9090
+description: >-
+  Just prometheus
+
+developer: prometheus
+website: https://prometheus.io/
+submitter: MajorTom327
+submission: https://github.com/MajorTom327/umbrel-community-app-store
+repo: https://github.com/MajorTom327/umbrel-community-app-store
+support: https://prometheus.io/
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  First version!
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

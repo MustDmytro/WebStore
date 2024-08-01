@@ -1,0 +1,25 @@
+manifestVersion: 1
+id: tommy-it-tools
+name: It Tools
+tagline: Useful tools for developer and people working in IT.
+icon: https://raw.githubusercontent.com/CorentinTh/it-tools/76a19d218da1599a528a71d97baaa1aef29f8ed5/public/safari-pinned-tab.svg
+category: Development
+version: "2.53.1"
+port: 9090
+description: >-
+  Just It Tools
+
+developer: prometheus
+website: https://it-tools.tech/
+submitter: MajorTom327
+submission: https://github.com/MajorTom327/umbrel-community-app-store
+repo: https://github.com/MajorTom327/umbrel-community-app-store
+support: https://github.com/CorentinTh/it-tools
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  First version!
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

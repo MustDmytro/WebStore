@@ -1,0 +1,1 @@
+rsync -av --exclude=".*" $1 umbrel@umbrel.local:/home/umbrel/umbrel/app-stores/getumbrel-umbrel-apps-github-53f74447/

@@ -1,0 +1,53 @@
+#Based on https://github.com/sPooKee/umbrel-community-app-store
+version: '3.8'
+
+services:
+
+  pd0:
+    container_name: surrealdb-pd0
+    image: pingcap/pd:v6.1.0
+    ports:
+      - "2379"
+    volumes:
+      - "${APP_SURREALDB_DATA_DIR}/data:/data"
+      - "${APP_SURREALDB_DATA_DIR}/logs:/logs"
+    command:
+      - --name=pd0
+      - --client-urls=http://0.0.0.0:2379
+      - --peer-urls=http://0.0.0.0:2380
+      - --advertise-client-urls=http://pd0:2379
+      - --advertise-peer-urls=http://pd0:2380
+      - --initial-cluster=pd0=http://pd0:2380
+      - --data-dir=/data/pd0
+      - --log-file=/logs/pd0.log
+    restart: on-failure
+
+  tikv0:
+    container_name: surrealdb-tikv0
+    image: pingcap/tikv:v6.1.0
+    volumes:
+      - "${APP_SURREALDB_DATA_DIR}/data:/data"
+      - "${APP_SURREALDB_DATA_DIR}/logs:/logs"
+    command:
+      - --addr=0.0.0.0:20160
+      - --advertise-addr=tikv0:20160
+      - --data-dir=/data/tikv0
+      - --pd=pd0:2379
+      - --log-file=/logs/tikv0.log
+    depends_on:
+      - "pd0"
+    restart: on-failure
+
+  surrealdb:
+    image: surrealdb/surrealdb:latest
+    restart: unless-stopped
+    ports:
+      - "${APP_SURREALDB_PORT}:8000"
+    command:
+      - start
+      - --log=trace
+      - --user=root
+      - --pass=${APP_PASSWORD}
+      - tikv://pd0:2379
+    depends_on:
+      - tikv0

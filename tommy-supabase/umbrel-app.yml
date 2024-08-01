@@ -1,0 +1,26 @@
+manifestVersion: 1
+id: tommy-supabase
+name: Supabase (WIP)
+tagline: Build in a weekend, Scale to millions
+icon: https://svgur.com/i/18sF
+category: Development
+version: "1.0.0"
+port: 8000
+description: >-
+  Supabase is an open source Firebase alternative.
+  Start your project with a Postgres database, Authentication, instant APIs, Edge Functions, Realtime subscriptions, Storage, and Vector embeddings.
+
+developer: Supabase
+website: https://supabase.com
+submitter: MajorTom327
+submission: https://github.com/MajorTom327/umbrel-community-app-store
+repo: https://github.com/MajorTom327/umbrel-community-app-store
+support: https://supabase.com
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  First version!
+dependencies: []
+path: ""
+defaultUsername: "supabase"
+defaultPassword: "this_password_is_insecure_and_should_be_updated"

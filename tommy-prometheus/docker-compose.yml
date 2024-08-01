@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+
+  app_proxy:
+    environment:
+      # The format here is: <app-id>_<docker-service-name>_1
+      APP_HOST: tommy-prometheus_prometheus_1
+      APP_PORT: 9090
+
+  prometheus:
+    image: prom/prometheus:2.53.1
+    restart: unless-stopped
+    volumes:
+      - "${APP_DATA_DIR}/prometheus_data:/prometheus"
+
