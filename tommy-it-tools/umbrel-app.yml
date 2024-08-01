@@ -3,7 +3,7 @@ id: tommy-it-tools
 name: It Tools
 tagline: Useful tools for developer and people working in IT.
 icon: https://raw.githubusercontent.com/CorentinTh/it-tools/76a19d218da1599a528a71d97baaa1aef29f8ed5/public/safari-pinned-tab.svg
-category: Development
+category: Tools
 version: "2.53.1"
 port: 9090
 description: >-

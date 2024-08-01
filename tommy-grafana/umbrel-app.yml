@@ -1,6 +1,6 @@
 manifestVersion: 1
 id: tommy-grafana
-name: Grafana
+name: Monitoring
 tagline: Just grafana
 icon: https://svgur.com/i/18st
 category: Development
