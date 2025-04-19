@@ -1,0 +1,20 @@
+manifestVersion: 1
+id: tommy-latitude
+name: Latitude (WIP)
+category: AI
+version: 0.0.1
+tagline: Level up your stack AI
+icon: 
+description: "Latitude helps you implement best practices so you can deliver reliable AI products with confidence"
+developer: Latitude
+website: https://latitude.so
+dependencies: []
+repo: https://github.com/latitude-dev/latitude-llm
+support: https://github.com/latitude-dev/latitude-llm/issues
+path: ""
+defaultPassword: ""
+
+submitter: majortom327
+submission: null
+defaultUsername: "root"
+deterministicPassword: true
