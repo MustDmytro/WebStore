@@ -4,7 +4,7 @@ name: Latitude (WIP)
 category: AI
 version: 0.0.1
 tagline: Level up your stack AI
-icon: 
+icon: https://mintlify.s3.us-west-1.amazonaws.com/latitudellms/logo/light.svg
 description: "Latitude helps you implement best practices so you can deliver reliable AI products with confidence"
 developer: Latitude
 website: https://latitude.so
@@ -13,6 +13,7 @@ repo: https://github.com/latitude-dev/latitude-llm
 support: https://github.com/latitude-dev/latitude-llm/issues
 path: ""
 defaultPassword: ""
+port: 5030
 
 submitter: majortom327
 submission: null
