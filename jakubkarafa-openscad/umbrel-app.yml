@@ -5,7 +5,7 @@ tagline: Script-based 3D modeling in your browser
 icon: https://raw.githubusercontent.com/jakubkarafa/umbrel-community-app-store/refs/heads/development/jakubkarafa-openscad/icon.svg
 category: Development
 version: "1.0.0"
-port: 8080
+port: 8099
 description: >-
   OpenSCAD is a script-based 3D CAD modeler. This Umbrel app runs OpenSCAD
   in a browser-accessible Linux desktop via noVNC.
