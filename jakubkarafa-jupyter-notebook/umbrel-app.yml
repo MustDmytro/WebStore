@@ -5,7 +5,7 @@ tagline: Interactive Python in your browser
 icon: https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg
 category: Development
 version: "1.0.0"
-port: 8888
+port: 5543:8080
 description: >-
   A powerful and flexible notebook interface for Python development,
   running directly from your Umbrel.
