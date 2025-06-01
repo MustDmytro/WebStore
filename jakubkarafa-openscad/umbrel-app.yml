@@ -1,0 +1,10 @@
+id: "jakubkarafa-openscad"
+name: "OpenSCAD"
+version: "1.0.0"
+releaseNotes: "Initial release of OpenSCAD app using jlesage/openscad Docker image."
+license: "GPL-2.0"
+repository: "https://github.com/jakubkarafa/umbrel-community-app-store"
+support: "https://github.com/jakubkarafa/umbrel-community-app-store/issues"
+port: 6080
+description: "A 3D CAD modeler for creating solid 3D objects. Access OpenSCAD via your browser."
+developer: "jakubkarafa"
