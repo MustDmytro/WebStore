@@ -5,15 +5,9 @@ services:
   app_proxy:
     environment:
       APP_HOST: jakubkarafa-openscad_openscad_1
-      APP_PORT: 8099
+      APP_PORT: 5547:8080
 
   openscad:
     image: tiagoad/simplescreen
     container_name: openscad
     restart: unless-stopped
-    shm_size: 2g
-    environment:
-      - LAUNCH=openSCAD
-      - PORT=8099
-    expose:
-      - "8099"
