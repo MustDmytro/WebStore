@@ -1,12 +1,18 @@
 version: "3.7"
 
 services:
+
+  app_proxy:
+    environment:
+      APP_HOST: jakubkarafa-openscad_openscad_1
+      APP_PORT: 8080
+
   openscad:
-    image: jlesage/openscad
+    image: tiagoad/simplescreen
     container_name: openscad
     restart: unless-stopped
+    shm_size: 2g
+    environment:
+      - LAUNCH=openSCAD
     ports:
-      - "6080:5800"  # Web access via noVNC
-    volumes:
-      - ${APP_DATA_DIR}/config:/config
-      - ${APP_DATA_DIR}/output:/output
+      - "8080:8080"
