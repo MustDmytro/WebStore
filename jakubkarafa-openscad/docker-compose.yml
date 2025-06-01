@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  openscad:
+    image: jlesage/openscad
+    container_name: openscad
+    restart: unless-stopped
+    ports:
+      - "6080:5800"  # Web access via noVNC
+    volumes:
+      - ${APP_DATA_DIR}/config:/config
+      - ${APP_DATA_DIR}/output:/output
