@@ -1,10 +1,26 @@
-id: "jakubkarafa-openscad"
-name: "OpenSCAD"
+manifestVersion: 1
+id: jakubkarafa-openscad
+name: OpenSCAD
+tagline: Script-based 3D modeling in your browser
+icon: ./icon.svg
+category: Development
 version: "1.0.0"
-releaseNotes: "Initial release of OpenSCAD app using jlesage/openscad Docker image."
-license: "GPL-2.0"
-repository: "https://github.com/jakubkarafa/umbrel-community-app-store"
-support: "https://github.com/jakubkarafa/umbrel-community-app-store/issues"
-port: 6080
-description: "A 3D CAD modeler for creating solid 3D objects. Access OpenSCAD via your browser."
-developer: "jakubkarafa"
+port: 8080
+description: >-
+  OpenSCAD is a script-based 3D CAD modeler. This Umbrel app runs OpenSCAD
+  in a browser-accessible Linux desktop via noVNC.
+
+developer: Jakub Karafa
+website: https://openscad.org
+submitter: Jakub Karafa
+submission: https://github.com/jakubkarafa/umbrel-community-app-store
+repo: https://github.com/jakubkarafa/umbrel-community-app-store
+support: https://github.com/jakubkarafa/umbrel-community-app-store/issues
+gallery:
+  - https://openscad.org/assets/img/screenshot.png
+releaseNotes: >-
+  Initial OpenSCAD release with graphical interface via noVNC.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
