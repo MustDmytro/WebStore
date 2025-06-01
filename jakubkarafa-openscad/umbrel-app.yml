@@ -1,6 +1,5 @@
 manifestVersion: 1
 id: jakubkarafa-openscad
-name: OpenSCAD
 tagline: Script-based 3D modeling in your browser
 icon: https://raw.githubusercontent.com/jakubkarafa/umbrel-community-app-store/refs/heads/development/jakubkarafa-openscad/icon.svg
 category: Development
