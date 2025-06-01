@@ -2,7 +2,7 @@ manifestVersion: 1
 id: jakubkarafa-openscad
 name: OpenSCAD
 tagline: Script-based 3D modeling in your browser
-icon: icon.svg
+icon: https://raw.githubusercontent.com/jakubkarafa/umbrel-community-app-store/refs/heads/development/jakubkarafa-openscad/icon.svg
 category: Development
 version: "1.0.0"
 port: 8080
