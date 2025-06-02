@@ -1,0 +1,11 @@
+id: "jakubkarafa-orcaslicer"
+name: "OrcaSlicer"
+version: "1.0.0"
+releaseNotes: "Initial release of OrcaSlicer as an Umbrel app via LinuxServer.io."
+icon: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/orcaslicer-logo.png"
+license: "GPL-3.0"
+repository: "https://github.com/linuxserver/docker-orcaslicer"
+support: "https://github.com/linuxserver/docker-orcaslicer/issues"
+port: 6081
+description: "Web-based OrcaSlicer powered by noVNC. Slice 3D models from your browser using your Umbrel setup."
+developer: "linuxserver.io (packaged for Umbrel by jakubkarafa)"
