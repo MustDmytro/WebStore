@@ -1,0 +1,16 @@
+version: "3.7"
+
+services:
+  orcaslicer:
+    image: lscr.io/linuxserver/orcaslicer:latest
+    container_name: orcaslicer
+    ports:
+      - "6081:3000"  # Web access: http://umbrel.local:6081
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London  # Change if needed
+    volumes:
+      - ${APP_DATA_DIR}/config:/config
+      - ${APP_DATA_DIR}/output:/output
+    restart: unless-stopped
